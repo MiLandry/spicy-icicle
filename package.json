@@ -1,0 +1,15 @@
+{
+  "name": "spicy-icicle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MiLandry/spicy-icicle.git",
+  "author": "Michael Landry <mlandryviolin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "simple-hot-reload-server": "^1.1.12"
+  },
+  "scripts": {
+  "dev": "hrs ./public/",
+  "build": "echo 'no-op'"
+  }
+}
