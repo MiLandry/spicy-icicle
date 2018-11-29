@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+header {
+  font-size: 3.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(29, 29,29);
+  color: white;
+  font-weight: 600;
+  height: 10rem;
+}
+
+.back-button {
+  background-color: rgb(5, 5,5);
+  width: auto;
+  height: 5rem;
+  font-size: 3rem;
+  margin-left: 3rem;
+  font-weight: bold;
+  padding: 0 1rem;
+  border-color: grey;
+  border-radius: 1rem;
+  color: white;
+}
+
+.logo {
+  margin-right: 3rem;
+  height: 6rem;
+  width: 8.5rem;
+}
+
+.main {
+  background-image: url("background.png");
+  background-size:100%;
+  padding: 4rem;
+}
+
+.hotel-image {
+  width: 100%;
+  border-width: .5rem;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.details{
+  font-weight: normal;
+}
+
+.section-header {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.section-text {
+  
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: rgb(192, 216,239);
+
+}
+
+.section-phone-number {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+
+}
+
+.accordian {
+ color: black;
+ font-size: 3.5rem;
+ font-weight: 600;
+ list-style-type: none;
+ background-color: white;
+ padding: 0;
+}
+
+.accordian-panel {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(rgb(232,235,238), rgb(192, 216,239));
+  margin: .5rem;
+  height: 8rem;
+  align-items: center;
+}
+
+.accordian-panel-button {
+  color: black;
+  font-size: 3.5rem;
+}
+
